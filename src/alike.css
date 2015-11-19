@@ -6,13 +6,16 @@ Compatibility problems:
 <abbr> <article> <aside> <audio> <bdi> <canvas> <command> <datalist> <details> <dialog> <figcaption> <figure> <footer> <header> <keygen> <label> <main> <mark> <menu> <menuitem> <meter> <nav> <output> <progress> <rp> <rt> <ruby> <section> <source> <summary> <time> <track> <var> <video> <wbr> 
 
 Others:
-<!----> <!doctype> <base> <br> <html> <link> <meta> <style> <script> <title>
+<!----> <!doctype> <area> <base> <br> <html> <link> <meta> <map> <style> <script> <title>
 */
 body, blockquote, dd, dl, h1, h2, h3, h4, h5, h6, hr, p, pre, fieldset, ol, ul{
     margin:0;
 }
 button, input, textarea, fieldset, legend, ol, th, td, option, ul{
     padding:0;
+}
+a {
+    text-decoration:none;
 }
 body{
     font-size:100%;
@@ -21,9 +24,10 @@ body{
 code, kbd, samp, pre{
     font-family:inherit;   
 }
-embed{
-    width:0;
+embed, object, param{
+    display:block;
     height:0;
+    width:0;
 }
 h1{
     font-size:200%;
