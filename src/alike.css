@@ -8,7 +8,7 @@ Compatibility problems:
 Others:
 <!----> <!doctype> <area> <base> <br> <html> <link> <meta> <map> <style> <script> <title>
 */
-body, blockquote, dd, dl, h1, h2, h3, h4, h5, h6, hr, p, pre, fieldset, ol, ul{
+body, blockquote, dd, dl, h1, h2, h3, h4, h5, h6, hr, input, p, pre, fieldset, ol, ul{
     margin:0;
 }
 button, input, textarea, fieldset, legend, ol, th, td, option, ul{
